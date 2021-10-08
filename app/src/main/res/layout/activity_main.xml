@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ff00">
+
+    <TextView
+        android:id="@+id/txtplayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="მოთამაშე: X"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtplayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtplayer1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="მოთამაშე 2: O"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:id="@+id/grid1"
+    android:columnOrderPreserved="true"
+    android:rowOrderPreserved="true"
+    android:layout_marginTop="10dp"
+    android:useDefaultMargins="true"
+    android:columnCount="3"
+    android:rowCount="3"
+    >
+<Button
+    android:layout_width="100dp"
+    android:layout_height="80dp"
+    android:background="#ffea00"
+    android:id="@+id/btn1"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:background="#ffea00"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:background="#ffea00"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:background="#ffea00"
+        android:id="@+id/btn4"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:background="#ffea00"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn5"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:background="#ffea00"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:background="#ffea00"
+        android:id="@+id/btn7"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:background="#ffea00"
+        android:id="@+id/btn8"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:background="#ffea00"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+</GridLayout>
+
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffea22"
+        android:text="ხელახლა ცდა"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+
+</RelativeLayout>
